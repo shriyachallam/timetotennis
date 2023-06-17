@@ -1,0 +1,147 @@
+a.btn{
+	background: rgb(193, 219, 151);
+	padding:8px 20px;
+	margin-top: 20px;
+}
+a.btn:hover{
+	cursor: pointer;
+	background-color: white;
+	color:gray;
+	border-color: white;
+}
+
+
+.site-background{
+	background-image: url('../assets/private-lessons.jpg');
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	padding-top: 3rem;
+	text-align: center;
+	color: white;
+}
+
+main .site-title h1{
+	margin: 20px;
+	font-weight: bolder;
+}
+
+main .site-title h3{
+	font-weight: 300;
+	color:white;
+	margin-bottom: 40px;    
+}
+
+
+main .site-title .buttn:hover{
+	color: transparent;
+}
+input{
+	padding: 10px;
+	margin:0px 10px;
+	height: 40px;
+}
+
+.partners{
+	background-color: rgb(219, 229, 243);
+	padding:30px 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.partners .sub-background{
+	padding-top: 2rem;
+	text-align: center;
+	color: black;
+}
+
+.partners h1{
+	margin: .3rem;
+}
+
+
+/* Subscribe */
+main .subscribe{
+	display: flex;
+	justify-content: center;
+}
+
+main .subscribe .sub-background{
+	padding:25px;
+	border-radius: 1rem;
+	text-align: center;
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#mc_embed_signup_scroll{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#mce-EMAIL, #mce-MMERGE1{
+	border: 1px solid rgb(216, 215, 215);
+	border-radius: 0.5rem;
+	background-color: white;
+	margin:5px;
+}
+#mce-MMERGE1{
+	padding: 10px;
+}
+#mc-embedded-subscribe{
+	background-color: #24305E;
+	color:white;
+	border:1px solid white;
+}
+.mce_inline_error{
+	font-size: 0.8rem;
+	margin: 0px;
+	padding: 0px;
+	background:none;
+	color:black;
+}
+/*Impact*/
+main .impact{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main .impact .imp-background{
+	padding:2rem 0px;
+	text-align: center;
+	width: 100%;
+	color:white;
+}
+.impact h1{
+	color: #24305E;
+}
+.impact h3{
+	color: #24305E;
+	padding:20px;
+}
+.impact .stats{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.tennis_ball img{
+	width: 200px;
+}
+
+@media only screen and (max-width:500px){
+.site-background{
+	width: 90%;
+}
+.tennis_ball img{
+	width:150px;
+}
+.partners img{
+	width:150px;
+}
+}

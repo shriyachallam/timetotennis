@@ -1,0 +1,58 @@
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card-1 {
+  display: flex;
+	padding: 20px;
+	justify-content: center;
+	flex-wrap: wrap;
+  align-items: center;
+}
+.c-content {
+	max-width:900px;
+  padding: 0px 50px;
+}
+.description {
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card-1 img {
+  max-width: 200px;
+}
+.a_quote {
+	text-align: center;
+	padding: 60px 0px;
+	background-color: rgb(96, 116, 156);
+	width: 100%;
+	color: white;
+}
+.image {
+  overflow: hidden;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+.join_team{
+	margin: 20px;
+}
+.join_team a {
+	font-weight: bolder;
+  color: rgb(8, 8, 8);
+}
+.join_team a:hover {
+  color: rgb(110, 110, 110);
+}
+
+@media only screen and (max-width:575px){
+	 .card-1{
+		padding:5px;
+	}
+	.c-content{
+		padding:20px;
+	}
+}
+

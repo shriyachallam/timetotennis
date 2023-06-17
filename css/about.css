@@ -1,0 +1,46 @@
+section{
+	display: flex;
+	justify-content: center;
+}
+.header {
+	min-height: 500px;
+	margin:5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	padding: 20px;
+  border: 1px solid white;
+	border-radius: 1rem;
+	background-color: white;
+}
+.a_quote {
+	min-width: 200px;
+	text-align: center;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.a_quote span {
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px 5%;
+}
+.description {
+	max-width: 600px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph {
+  padding: 10px 20px;
+}
+@media only screen and (max-width:636px){
+	.header{
+		flex-direction: column;
+	}
+}
+/*Cards*/

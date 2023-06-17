@@ -1,0 +1,8 @@
+<svg>
+  <style>
+    <img src="assets/logo.png" alt="Time To Tennis" class="logo">
+    @media (prefers-color-scheme: dark) {
+      <img src="assets/logo.png" alt="Time To Tennis" class="logo">
+    }
+  </style>
+</svg>
